@@ -395,7 +395,7 @@ namespace Asst1
             {
                 win = (p.Bet * (float)2.5);
                 p.Account += win;
-                Console.WriteLine("BlackJack! Congratulations! You win {0:C}. Account balance: {1:C}", (win-p.Bet), p.Account);
+                Console.WriteLine("BlackJack! Congratulations! You win {0:C}. Account balance: {1:C}", (win - p.Bet), p.Account);
 
                 SystemSounds.Exclamation.Play(); //Winning sound
                 Thread.Sleep(500);
